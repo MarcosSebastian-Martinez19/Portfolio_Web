@@ -1,0 +1,1 @@
+#Este proyecto consiste en crear un Portafolio Web Responsive, el mismo tiene el fin de poder adjuntarlo a mi CV. Está hecho con herramientas como HTML, CSS y BOOTSTRAP.

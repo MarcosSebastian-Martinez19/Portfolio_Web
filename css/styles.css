@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+body {
+    background-image: url("../images/fondo5.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400rem;
+}
+
+
+/* From cssbuttons.io by @gagan-gv */
+.card {
+    width: 200px;
+    height: 250px;
+    background: #07182E;
+    border-radius: 5px;
+    text-align: center;
+    color: #f0f0f0;
+    font-family: Cormorant Infant;
+    z-index: 1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.img {
+    display: flex;
+    margin: 60px auto 10px auto;
+    width: 85px;
+    height: all 0.5s;
+    z-index: 99;
+}
+
+p {
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+h1 {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+svg {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.card:hover .img {
+    transform: scale(1.1);
+    border: 1px solid #f0f0f0;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.card:hover h1,
+.card:hover p {
+    opacity: 1;
+}
+
+
+/* 2 */
+
+/* From cssbuttons.io by @Tiagoadag */
+.card {
+    width: 190px;
+    height: 254px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 20px;
+    transition: all .3s;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.card2 {
+    width: 190px;
+    height: 254px;
+    background-color: #1a1a1a;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+    -webkit-transform: scale(0.98);
+    -moz-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    -o-transform: scale(0.98);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+
+
+/* 6 */
+/* From cssbuttons.io by @adamgiebl */
+.cssbuttons-io-button {
+    background: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    color: white;
+    font-family: Cormorant Infant;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    -webkit-border-radius: 0.9em;
+    -moz-border-radius: 0.9em;
+    -ms-border-radius: 0.9em;
+    -o-border-radius: 0.9em;
+}
+
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+    -webkit-border-radius: 0.7em;
+    -moz-border-radius: 0.7em;
+    -ms-border-radius: 0.7em;
+    -o-border-radius: 0.7em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+    -webkit-transition: transform 0.3s;
+    -moz-transition: transform 0.3s;
+    -ms-transition: transform 0.3s;
+    -o-transition: transform 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+    -webkit-transform: translateX(0.1em);
+    -moz-transform: translateX(0.1em);
+    -ms-transform: translateX(0.1em);
+    -o-transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+}
+
+
+/* Buttons contac */
+
+/* From cssbuttons.io by @barisdogansutcu */
+.download-button {
+    position: relative;
+    border-width: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+    z-index: 1;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.download-button .docs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 40px;
+    padding: 0 10px;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: #242a35;
+    border: solid 1px #e8e8e82d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    -webkit-transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    -ms-transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.download-button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.download {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+    z-index: -1;
+    border-radius: 4px;
+    transform: translateY(0%);
+    background-color: #01e056;
+    border: solid 1px #01e0572d;
+    transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    -webkit-transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    -moz-transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    -ms-transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+    -o-transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.download-button:hover .download {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+
+.download svg polyline,.download svg line {
+    animation: docs 1s infinite;
+    -webkit-animation: docs 1s infinite;
+}
+
+@keyframes docs {
+    0% {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-15%);
+        -webkit-transform: translateY(-15%);
+        -moz-transform: translateY(-15%);
+        -ms-transform: translateY(-15%);
+        -o-transform: translateY(-15%);
+    }
+
+    100% {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+}
